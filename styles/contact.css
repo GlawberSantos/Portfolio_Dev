@@ -5,7 +5,7 @@
   padding: 128px 120px 200px;
   gap: 48px;
   width: 100%;
-  background: url(/assets/Background_Contacts.png) no-repeat center center;
+  background: url(../assets/Background_Contacts.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -44,7 +44,6 @@
   margin: 0;
 }
 
-/* Botões de redes sociais */
 .links {
   display: flex;
   flex-direction: column;
@@ -87,118 +86,3 @@
   width: 20px;
   height: 20px;
 }
-
-/*
-linkedinLogo {
-  width: 28px;
-  height: 28px;
-  /* Vector 
-  
-  position: absolute;
-  left: 9.38%;
-  right: 9.38%;
-  top: 9.38%;
-  bottom: 9.38%;
-  
-  /* Base/gray-300 
-  background: #878EA1;
-}
-
-/* Linkedin 
-
-width: 288px;
-height: 22px;
-
-font-family: 'Maven Pro';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-/* ou 22px */
-
-/* Base/gray-200 
-color: #C0C4CE;
-*/
-
-/* ArrowUpRight 
-
-width: 20px;
-height: 20px;
-/* Vector
-
-position: absolute;
-left: 21.87%;
-right: 21.88%;
-top: 21.88%;
-bottom: 21.87%;
-
-/* Main/Blue
-background: #3996DB;
-*/
-
-/* InstagramLogo 
-
-width: 28px;
-height: 28px;
-
-/* Vector 
-position: absolute;
-left: 9.38%;
-right: 9.38%;
-top: 9.38%;
-bottom: 9.38%;
-
-/* Base/gray-300 
-background: #878EA1;
- */
-
-/* GithubLogo 
-
-width: 28px;
-height: 28px;
-
-
-/* Auto layout por dentro 
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector 
-
-position: absolute;
-left: 0%;
-right: 15.62%;
-top: 9.38%;
-bottom: 6.25%;
-
-/* Base/gray-300 
-background: #878EA1;
-
-
-
-
-/* EnvelopeSimple 
-
-width: 28px;
-height: 28px;
-
-
-/* Auto layout por dentro
-flex: none;
-order: 0;
-flex-grow: 0;
-
-
-/* Vector 
-
-position: absolute;
-left: 9.38%;
-right: 9.38%;
-top: 18.75%;
-bottom: 18.75%;
-
-/* Base/gray-300 
-background: #878EA1;
-
-
