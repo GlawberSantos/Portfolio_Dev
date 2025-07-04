@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  background: #16181D;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  width: 680px;
+  height: 159px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Title */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 680px;
+  height: 99px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Hello World! Meu nome é Martina Santos e sou */
+.title p {
+  width: 680px;
+  height: 24px;
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #C0C4CE;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Desenvolvedora Fullstack */
+.title h1 {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  text-align: center;
+  color: #E2E4E9;
+  margin: 0;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Description */
+.description {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #878EA1;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Tag */
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  background: #292C34;
+  border-radius: 999px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tag img {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tag span {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #C0C4CE;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* CaretDoubleDown */
+.scroll-down {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: calc(50% - 32px/2);
+  top: 601px;
+}
+
+.scroll-down img {
+  width: 32px;
+  height: 32px;
+}
+
+

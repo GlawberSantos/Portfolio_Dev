@@ -1,0 +1,144 @@
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  width: 100%;
+  background: #16181D;
+}
+
+.projects .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projects .header h2 {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #E3646E;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.projects .header h3 {
+width: 1040px;
+height: 29px;
+font-family: 'Asap';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #E2E4E9;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  max-width: 1024px;
+  width: 90%;
+  padding: 0 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: #292C34;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+}
+
+.project-card .card-text {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-card .card-text h4 {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #E2E4E9;
+  margin: 0;
+}
+
+.project-card .card-text p {
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #878EA1;
+  margin: 0;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1024px) {
+  .projects .grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 0;
+  }
+
+  .projects .header h2 {
+    font-size: 32px;
+  }
+
+  .projects .header h3 {
+    font-size: 18px;
+  }
+
+  .projects .grid {
+    grid-template-columns: 1fr;
+    /* Uma coluna em telas muito pequenas */
+    gap: 24px;
+    padding: 0 15px;
+    /* Mais padding nas laterais em telas menores */
+  }
+
+  .project-card img {
+    height: 180px;
+    /* Ajusta a altura da imagem para telas menores */
+  }
+
+  .project-card .card-text {
+    padding: 16px;
+  }
+}
